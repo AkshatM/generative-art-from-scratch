@@ -5,13 +5,7 @@ This is a tutorial on generative art!
 1. p5.js basics with:
 	- Tiled Lines: https://generativeartistry.com/tutorials/tiled-lines/
 
-2. Grids
-	- Joy Division: https://generativeartistry.com/tutorials/joy-division/
-	- Cubic Disarray: https://generativeartistry.com/tutorials/cubic-disarray/
+2. Recursion: 
+	- Mondrian Paintings: https://generativeartistry.com/tutorials/piet-mondrian/
 
-3. Recursion
-	- Hypnotic Squares: https://generativeartistry.com/tutorials/hypnotic-squares/
-	- Fractals: https://natureofcode.com/fractals/
-
-4. Perlin Noise:
-	- 
+3. Perlin noise

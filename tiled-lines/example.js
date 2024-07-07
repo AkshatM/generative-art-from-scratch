@@ -26,12 +26,12 @@ function draw() {
       // roll a dice - if it comes up true more than 50% of the time...
       if (random() >= 0.5) {
 
-        // draw a line with slope 1 and length equal to step
+        // draw a line with slope 1 and length equal to step * sqrt(2)
         line(x, y, x + step, y + step);
 
       } else {
 
-        // draw a line with slope -1 and length equal to step
+        // draw a line with slope -1 and length equal to step * sqrt(2)
         line(x + step, y, x, y + step);
 
       }
