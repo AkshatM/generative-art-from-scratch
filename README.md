@@ -8,4 +8,7 @@ This is a tutorial on generative art!
 2. Recursion: 
 	- Mondrian Paintings: https://generativeartistry.com/tutorials/piet-mondrian/
 
-3. Perlin noise
+3. Perlin noise:
+	- Flow fields: https://www.tylerxhobbs.com/words/flow-fields
+
+4. L-systems

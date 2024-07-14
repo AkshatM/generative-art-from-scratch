@@ -6,19 +6,19 @@ function setup() {
   strokeWeight(5);
 
   // either fill the whole canvas, or cut it up into smaller rectangles
-  partition(0, 0, width, height, 6)
+  partition(0, 0, width, height, 3)
 }
 
 function partition(x, y, max_width, max_height, limit) {
 
   // decide if we want to cut this rectangle up along the X-axis
-  var partitionAlongX = Math.random() > 0.3;
+  var partitionAlongX = random() > 0.1;
 
   // decide if we want to cut this rectangle up along the X-axis
-  var partitionAlongY = Math.random() > 0.3;
+  var partitionAlongY = random() > 0.1;
   
   // pick a random color 
-  if (Math.random() > 0.6) {
+  if (random() > 0.6) {
     fill(random(["red", "gold", "blue"]))
   } else {
     fill("white")

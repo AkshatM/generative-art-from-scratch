@@ -17,8 +17,8 @@ function setup() {
       let c = noise(nx, ny);
 
       // Draw a line heading in the direction generated
-      stroke('purple');
-      line(x, y, x + 100*cos(c), y + 100*sin(c));
+      stroke(random(['purple', 'gold', 'red']));
+      line(x, y, x + 20*cos(c), y + 20*sin(c));
     }
   }
 }
